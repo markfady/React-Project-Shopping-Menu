@@ -1,6 +1,7 @@
 import "./NavBar.css";
 import Image1 from "../Logo.png";
 
+// import {Link} from"react-router-dom";
 function NavBar() {
     return(
         <>
@@ -12,9 +13,6 @@ function NavBar() {
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/#">Home</a>
-        </li>
-        <li className="nav-item">
-        <a className="nav-link" href="/#">Products List</a>
         </li>
       </ul>
     </div>

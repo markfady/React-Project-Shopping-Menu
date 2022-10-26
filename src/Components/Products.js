@@ -51,7 +51,8 @@ function Products() {
         {products.map((product)=> {
             return(
                 <div className="col-3" key={product.id}>           {/* Calling The JSX from another component for not repeating the same thing and make it dynamic ! */}
-                <ProductsList  product={product}/>
+                <ProductsList  product={product} showButton={true}/> 
+                {/* Giving showButton Value true to show it in conditional Rendering process inside ProductsList */}
             </div>
             )
         })}  
